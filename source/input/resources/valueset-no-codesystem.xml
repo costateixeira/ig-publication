@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="valueset-no-codesystem"/> 
-  <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem"/> 
+  <url value="http://hl7belgium.org/fhir/core/ValueSet/valueset-no-codesystem"/> 
   <name value="ValueSetWithNoCodeSystem"/>
   <status value="draft"/> 
   <experimental value="true"/> 
