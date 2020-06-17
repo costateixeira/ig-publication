@@ -10,6 +10,16 @@
             "path" : "http://hl7belgium.org/fhir/core",
             "status" : "ci-build",
             "current" : true
-           }
+           },
+           {
+            "version" : "2020Jun",
+             "desc" : "2020 June Release",
+             "path" : "http://hl7belgium.org/fhir/core/2020Jun",
+             "status" : "ballot",
+             "date" : "2020-06-15",
+             "fhirversion" : "4.0.1", 
+             "sequence" : 1,
+             "current" : true
+            }
         ]
 } 
