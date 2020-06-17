@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7belgium.org/fhir/core",
+  "name": "BeOnFHIR",
+  "package-id": "hl7.be.fhir.core",
+  "ig-ver": "2020Jun",
+  "date": "Wed, 17 Jun, 2020 12:36:34 +0200",
+  "errs": 4,
+  "warnings": 5,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.4.0 (3)"
+}
