@@ -7,7 +7,7 @@
         {
            "version" : "current",
             "desc" : "Continuous Integration Build (latest in version control)",
-            "path" : "http://hl7belgium.org/fhir/core",
+            "path" : "http://build.fhir.org/ig/hl7-be/be-core",
             "status" : "ci-build",
             "current" : true
            },
