@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
    <meta charset="UTF-8"/>
-  <title>[%title%]</title>
+  <title>Sample IG</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="http://www.hl7.org"/>
@@ -41,7 +41,7 @@
     </a>
    </div>
    <div id="ig-status" style="font-size:24px;padding-top: 20px;">
-<b id="ig-title">[%title%]</b>
+<b id="ig-title">Sample IG</b>
 </div>
  </div>
   <div class="container">  <!-- container -->
@@ -156,7 +156,7 @@
 
 <!--- Include in the page --->
 <script>
-var pageJSON = '[%json%]';
+var pageJSON = '{"package-id":"hl7.be.fhir.core","title":"Sample IG","canonical":"http://hl7belgium.org/fhir/core","introduction":"The introduction that should appear in the FHIR IG registry","list":[{"version":"current","desc":"Continuous Integration Build (latest in version control)","path":"http://build.fhir.org/ig/hl7-be/be-core","status":"ci-build","current":true},{"version":"2020Jun","desc":"2020 June Release","path":"http://hl7belgium.org/fhir/core/2020Jun","status":"ballot","date":"2020-06-15","fhirversion":"4.0.1","sequence":1,"current":true}]}';
 load(pageJSON);
 </script>
 
