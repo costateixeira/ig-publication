@@ -7,15 +7,18 @@ We want to start with an implementationGuide - a 2020Jun release which is the cu
 
 ## Folder Structure
 I have my IGs in a folder - but you can have them anywhere:
-    c:\ImplementationGuides
-    c:\ImplementationGuides\<IGName> 
+```
+c:\ImplementationGuides
+c:\ImplementationGuides\<IGName> 
     (the source of the IG, with all the folders). I also keep the jar in the parent folder because the template can pick it up:
-    c:\ImplementationGuides\Publication\org.hl7.fhir.publisher.jar
+c:\ImplementationGuides\Publication\org.hl7.fhir.publisher.jar
+```
 
 
 For setting up the publication, I use a folder called `Publication` which I put under my ImplementationGuides folder (but could be outside that tree as well).
 My Publication folder structure looks like:
 
+```
     c:\ImplementationGuides\Publication
     c:\ImplementationGuides\Publication\ig-registry
       (here I clone  the ig registry)
@@ -24,7 +27,12 @@ My Publication folder structure looks like:
     c:\ImplementationGuides\Publication\<IGName>
     c:\ImplementationGuides\Publication\<IGName>\source
       (for the source as I do some changes without changing the CI. Not sure if this is needed)
-    c:\ImplementationGuides\Publication\<IGName>\<ReleaseName>
+    c:\ImplementationGuides\Publication\<IGName>\website\
+      (this is the folder that is going to be copied to the web server)
+    c:\ImplementationGuides\Publication\<IGName>\website\<Release>
+      (for example 2020Jun)
+      
+```
 
 
 
