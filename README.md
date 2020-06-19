@@ -79,7 +79,7 @@ These are the changes
 ```
 .\\_genOnce.bat -publish http://hl7belgium.org/fhir/core/2020Jun
 ```
-Then copy that output folder to your release folder (Publication\<IGName>\<Release>)
+Then copy that output folder to your release folder (`Publication\<IGName>\<Release>`)
 1. Get the ig-registry and copy it in a place where it is accessible (e.g. on your Publication folder)
 > Here are the changes: https://github.com/costateixeira/ig-publication/commit/4d13c346a5aedde62b72593ea78b2883d4168cab
 And this is how your folder should look like on this step
