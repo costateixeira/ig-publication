@@ -37,10 +37,8 @@ My Publication folder structure looks like:
 
 
 1. Make sure your ImplementationGuide is building correctly
-
-1.1. Also that the canonicals in your implementationGuide match your destination folder.
-
-2. Make sure that our IG's source\package-list.json only contains the ci-build entry 
+  1. Also that the canonicals in your implementationGuide match your destination folder.
+1. Make sure that our IG's source\package-list.json only contains the ci-build entry 
  in this json, "version", "path", "status" and "current" are mandatory elements.
 
 This is how your folder should look like on this step
@@ -50,12 +48,12 @@ https://github.com/costateixeira/ig-publication/blob/ca17a3d29cddd569687764e250e
 
 more information on the package-list.json file: (link...)
 
-3. Build again to ensure everything is ok
-4. Add a release entry: - add a new entry to package-list.json. 
+1. Build again to ensure everything is ok
+1. Add a release entry: - add a new entry to package-list.json. 
 "date", "fhirversion" (lowercase!), "sequence", "version", "path", "status" and "current" are mandatory
 https://github.com/costateixeira/ig-publication/commit/d8934d902cd0b53c9a1c07eb9b9647262d0befb7
 
-5. Create an empty folder that will contain content to publish on the web, copy the package-list there and create a publish.ini
+1. Create an empty folder that will contain content to publish on the web, copy the package-list there and create a publish.ini
 this folder should (ot be inside your IG's folder structure. For example if your ImplementationGuide is in
     c:\ImplementationGuides\<IGName>
 You can have your empty folder for publication in 
