@@ -72,7 +72,7 @@ This is how your folder should look like on this step
 These are the changes
 > https://github.com/costateixeira/ig-publication/commit/323f4b70fabb18a6a3a1f26d9fd9bdc7072373eb
 
-1. Copy history template from (...) into your website folder. Do not replace your package-list.json with the one that is in history-template.
+1. Copy history template from https://github.com/HL7/fhir-ig-history-template into your website folder. Do not replace your package-list.json with the one that is in history-template.
 These are the changes
 > https://github.com/costateixeira/ig-publication/commit/fbc6342124e095460ae999916358768859f91495
 1. Go back to your IG folder and build the release with the publish option and the URL where the release will be published
