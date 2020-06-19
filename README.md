@@ -68,6 +68,7 @@ c:\ImplementationGuides\Publication\<IGName>\<Release>
 ```
 This is how your folder should look like on this step
 > https://github.com/costateixeira/ig-publication/tree/323f4b70fabb18a6a3a1f26d9fd9bdc7072373eb
+
 These are the changes
 > https://github.com/costateixeira/ig-publication/commit/323f4b70fabb18a6a3a1f26d9fd9bdc7072373eb
 
