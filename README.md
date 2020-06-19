@@ -1,5 +1,7 @@
 # Publishing an implementation guide
 
+NOTE: THIS IS ONLY A DRAFT FOR MY OWN NOTES. THIS IS INCOMPLETE. DO NOT TRY THIS AT HOME.
+Check on Zulip and the official documentation. You should only be reading from here on if I asked you nicely.
 
 ## Goal
 We want to start with an implementationGuide - a 2020Jun release which is the current one, besides the CI which is in the HL7 build. 
