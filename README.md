@@ -37,7 +37,9 @@ My Publication folder structure looks like:
 
 
 1. Make sure your ImplementationGuide is building correctly
+
 1.1. Also that the canonicals in your implementationGuide match your destination folder.
+
 2. Make sure that our IG's source\package-list.json only contains the ci-build entry 
  in this json, "version", "path", "status" and "current" are mandatory elements.
 
