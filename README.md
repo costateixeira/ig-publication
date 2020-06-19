@@ -1,5 +1,3 @@
-# IG Publication 
-
 # Publishing an implementation guide
 
 
